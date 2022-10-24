@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SearchFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SearchView
+            android:backgroundTint="@color/white"
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/search_scroll_bar"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <ScrollView
+            android:id="@+id/search_scroll_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50sp"
+            android:background="@color/grayt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_height="60sp"
+                    android:layout_marginHorizontal="10sp"
+                    android:text="Результат" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
