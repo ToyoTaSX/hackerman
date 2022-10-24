@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">hackerman</string>
     <string name="oneButton">Button</string>
-    <string name="enterButton">Войти</string>
+    <string name="enterButton">Вход</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
